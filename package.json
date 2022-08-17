@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "jest --no-cache --logHeapUsage"
+    "test": "jest --no-cache --logHeapUsage --maxWorkers 1"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
